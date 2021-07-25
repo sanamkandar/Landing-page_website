@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dark mode</title>
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/asset/logo/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/asset/logo/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/asset/logo/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <!--  -->
+    <link rel="stylesheet" href="style/gymStyle.css" />
+    <link rel="stylesheet" href="style/responsive.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <a href="#" class="navLink" target="_blank">LOGO.</a>
+      </div>
+      <div class="wrapper">
+        <a href="#" class="navLink" target="_blank">Work</a>
+        <a href="#" class="navLink" target="_blank">Services</a>
+        <a href="#" class="navLink" target="_blank">About us</a>
+        <a href="#" class="navLink" target="_blank">Contact us</a>
+        <a href="#" class="navLink" target="_blank">Blog</a>
+      </div>
+      <span class="toggle-btn">
+        <label class="themeName" for="themeSwitch">Day</label>
+        <div class="toggle">
+          <div class="inner-toggle"></div>
+        </div>
+      </span>
+    </div>
+    <main>
+      <section class="tagline">
+        <div class="img-abso">
+          <img
+            class="workoutImg"
+            src="https://images.unsplash.com/photo-1524002232583-bbe9d9d2eebd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80"
+            alt=""
+          />
+        </div>
+        <div class="line">
+          <label for="line">HIT THE GYM AND YOUR GOALS</label>
+        </div>
+        <div class="qoutes">
+          <label for="qoutes"
+            >‘The last three or four reps is what makes the muscle grow. This
+            area of pain divides a champion from someone who is not a champion.’
+            <br />
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            — Arnold Schwarzenegger, seven-time Mr. Olympia</label
+          >
+        </div>
+      </section>
+      <section id="programs">
+        <div class="headline">
+          <h1>WE HAVE 140+ GYMS ACROSS INDIA</h1>
+        </div>
+        <div class="programContainer">
+          <div class="program program1">
+            <div class="programName">PERSONAL TRAINING PROGRAM</div>
+            <div class="workoutList">
+              <ul>
+                <li>Bench burpee with a push-up</li>
+                <li>Leg lift cross crunch</li>
+                <li>Pledge plank</li>
+                <li>Body weight squats</li>
+                <li>Lunge jumps</li>
+                <li>Compound row</li>
+                <li>Dumbbell squat into bicep curl</li>
+                <li>Overhead dumbbell press</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="program program2">
+            <div class="programName">CORPORATE WELLNESS PROGRAM</div>
+            <div class="workoutList">
+              <ul>
+                <li>Jumping jacks (total body)</li>
+                <li>Wall sit (lower body)</li>
+                <li>Push-up (upper body)</li>
+                <li>Abdominal crunch (core)</li>
+                <li>Step-up onto chair (total body)</li>
+                <li>Squat (lower body)</li>
+                <li>Plank (core)</li>
+                <li>Triceps dip on chair (upper body)</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="program program3">
+            <div class="programName">GROUP PROGRAM</div>
+            <div class="workoutList">
+              <ul>
+                <li>Jumping jacks</li>
+                <li>Hamstring stretch</li>
+                <li>Walking nee hugs</li>
+                <li>Side shuffles</li>
+                <li>Squat to stands</li>
+                <li>Back peddling</li>
+                <li>Leg swings</li>
+                <li>Inchworms</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contactForm">
+        <div class="headForm">
+          <h1>Contact Us</h1>
+          <div class="form-temp">
+            <form action="#" method="get">
+              <div class="detailContainer">
+                <div class="details">
+                  Name <br /><input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Roman joss"
+                  />
+                </div>
+                <div class="details">
+                  Email <br /><input
+                    type="email"
+                    name="emailID"
+                    id="emailID"
+                    placeholder="romanjoss@gmail.com"
+                  />
+                </div>
+                <div class="details">
+                  Phone <br /><input
+                    type="tel"
+                    name="phoneNo"
+                    id="phoneNo"
+                    placeholder="9867436797"
+                  />
+                </div>
+              </div>
+              <div class="messageContainer">
+                Message
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="10"
+                  placeholder="Ask your query..."
+                ></textarea>
+              </div>
+              <div class="btn">
+                <button type="submit">LET'S GO</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <h4 class="credential">
+        Created by
+        <a
+          class="credentialLink"
+          href="https://codepen.io/your-work"
+          target="_blank"
+        >
+          Sanam kandar</a
+        >
+      </h4>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

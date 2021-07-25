@@ -1,0 +1,216 @@
+/* MOBILE DEVICE */
+@media screen and (max-width: 480px) {
+  html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* STYLING NAVBAR */
+  .navbar {
+    flex-direction: column;
+    height: auto;
+  }
+  .wrapper {
+    flex-direction: column;
+    width: auto;
+  }
+
+  /* STYLING TAGLINE */
+
+  .tagline {
+    height: 310px;
+  }
+  .workoutImg {
+    height: 300px;
+    border-radius: 0;
+  }
+  .img-abso {
+    padding: 0;
+  }
+  .line {
+    top: 30%;
+    font-size: 2rem;
+  }
+  .qoutes {
+    top: 36%;
+    color: white;
+    padding: 20px 20px;
+    font-size: 18px;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+
+  /* STYLING PROGRAMS-CONTENT */
+
+  .headline {
+    line-height: 3.5rem;
+  }
+
+  .programContainer {
+    flex-direction: column;
+  }
+
+  .program {
+    margin-bottom: 15px;
+  }
+
+  /* STYLING CONTACT US SECTION*/
+
+  .detailContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .messageContainer {
+    flex-direction: column;
+  }
+  .messageContainer textarea {
+    width: 43%;
+  }
+  /* FOOTER */
+  footer h4 {
+    text-align: center;
+  }
+}
+
+/* TABLET DEVICES */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /* STYLING NAVBAR */
+  .navbar {
+    width: 100%;
+    max-width: auto;
+  }
+  .wrapper {
+    width: auto;
+  }
+  .wrapper a,
+  .logo a {
+    font-size: 20px;
+    padding: 9px 9px 0 9px;
+  }
+
+  /* STYLING TAGLINE */
+  .tagline {
+    height: 500px;
+  }
+  .workoutImg {
+    height: 500px;
+  }
+  .line {
+    top: 200px;
+    font-size: 3rem;
+  }
+  .qoutes {
+    top: 300px;
+    font-size: 19px;
+    text-align: center;
+    line-height: 1.3rem;
+    padding: 50px;
+  }
+  /*  STYLING PROGRAMS-CONTENT */
+  .headline {
+    line-height: 3.4rem;
+  }
+  .programContainer {
+    flex-direction: column;
+    /* border: aqua solid 1px; */
+  }
+  .program {
+    width: 400px;
+    height: 450px;
+    margin-bottom: 10px;
+  }
+
+  /* STYLING CONTACT US SECTION */
+  .detailContainer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .messageContainer {
+    flex-direction: column;
+  }
+  .messageContainer textarea {
+    width: 43%;
+  }
+
+  /* FOOTER */
+  footer h4 {
+    text-align: right;
+  }
+}
+/* NORMAL SCREEN MONITOR/LAPTOP DEVICES */
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+  /* STYLING NAVBAR */
+  .wrapper {
+    width: 60%;
+  }
+  .wrapper a {
+    font-size: 27px;
+  }
+
+  /* STYLING TAGLINE */
+  .tagline {
+    height: 820px;
+  }
+  .workoutImg {
+    height: 800px;
+  }
+
+  .line {
+    top: 240px;
+    font-size: 80px;
+    line-height: 70px;
+  }
+  .qoutes {
+    top: 410px;
+    text-align: center;
+    padding: 50px;
+    line-height: 1.8rem;
+  }
+
+  /*  STYLING PROGRAMS-CONTENT */
+  .program {
+    margin: 3px;
+  }
+}
+
+/* LARGE MONITOR/LAPTOP DEVICES */
+@media screen and (min-width: 1281px) and (max-width: 2560px) {
+  /* STYLING TAGLINE */
+  .workoutImg {
+    height: 1200px;
+  }
+  .tagline {
+    height: 1200px;
+  }
+  .line {
+    top: 350px;
+    /* font-size: 120px; */
+  }
+  .qoutes {
+    top: 850px;
+    text-align: left;
+    font-size: 40px;
+    line-height: 1.4em;
+  }
+}
+
+/* LARGE SCREEN DEVIES */
+@media screen and (min-width: 2561px) {
+  /* STYLING TAGLINE */
+  .tagline {
+    height: 1720px;
+  }
+  .workoutImg {
+    height: 1717px;
+  }
+  .line {
+    top: 600px;
+  }
+  .qoutes {
+    top: 1400px;
+    font-size: 40px;
+    line-height: 2em;
+    text-align: center;
+  }
+}

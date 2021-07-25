@@ -1,0 +1,255 @@
+/* All fonts imoprted from google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Changa+One:ital@1&family=Lato:ital,wght@0,400;1,300&family=Teko:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?&family=Lato:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* navbar starts */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  /* border: black solid 1px; */
+  height: 70px;
+  padding: 5px 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  /* border: black solid 1px; */
+}
+
+.wrapper {
+  /* border: black solid 1px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  padding: 20px;
+}
+
+.wrapper a,
+.logo a {
+  /* border: black solid 1px; */
+  color: black;
+  padding: 10px 10px 0 10px;
+  font-family: "Teko", sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.wrapper a:hover {
+  border-bottom: solid rgb(255, 174, 0) 5px;
+}
+
+.toggle-btn {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  /* border: black solid 1px; */
+}
+
+.toggle {
+  /* border: black solid 1px; */
+  width: 3.8rem;
+  height: 2rem;
+  border-radius: 41px;
+  margin-left: 10px;
+  background-color: rgb(56, 56, 56);
+}
+
+.inner-toggle {
+  background-color: white;
+  margin: 1.5px 2px;
+  /* border: springgreen solid 1px; */
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 100px;
+}
+
+/* navbar end */
+
+/* tagline section starts*/
+
+.tagline {
+  height: 132vh;
+}
+.workoutImg {
+  width: 100%;
+  border-radius: 3px;
+}
+.img-abso,
+.line,
+.qoutes {
+  position: absolute;
+  width: 100%;
+  padding: 0 20px;
+}
+.img-abso {
+  z-index: 1;
+}
+.line {
+  top: 300px;
+  font-family: "Changa One", cursive;
+  z-index: 2;
+  text-align: center;
+  color: blanchedalmond;
+  font-size: 100px;
+  background: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.qoutes {
+  padding: 100px;
+  top: 700px;
+  z-index: 1;
+  color: white;
+  font: italic bold 30px/3rem "Lato", sans-serif;
+}
+
+/* tagline section end*/
+
+/* programs section start */
+
+#programs {
+  /* border: 2px solid skyblue; */
+  margin-bottom: 10px;
+}
+
+.headline {
+  /* border: 2px solid rgb(187, 189, 190); */
+  text-align: center;
+  padding: 2rem;
+  font: normal 30px/30px "Oswald";
+}
+
+.programContainer {
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px 10px 0 10px;
+}
+
+.program {
+  /* border: springgreen solid 2px; */
+  display: block;
+  width: 325px;
+  height: 415px;
+  border-radius: 20px;
+  background-color: rgb(37, 37, 37);
+}
+.programName {
+  color: white;
+  height: fit-content;
+  width: 100%;
+  padding: 20px 10px 10px 10px;
+  text-align: center;
+  font: normal 25px/1.1rem "teko";
+  word-spacing: 6px;
+}
+.program:hover .programName {
+  border: rgb(255, 174, 0) solid 3px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+.workoutList {
+  /* border: rgb(255, 174, 0) solid 1px; */
+  margin: 10px;
+}
+.workoutList ul li {
+  /* border: rgb(255, 174, 0) solid 1px; */
+  color: white;
+  font: normal 1.2rem/1.4rem "Roboto";
+  padding: 10px;
+  list-style: inside;
+}
+
+/* programs section end */
+
+/*contact us section starts */
+
+.contactForm {
+  display: flex;
+  background-repeat: no-repeat;
+}
+
+.headForm {
+  background-color: rgb(238, 233, 233);
+  width: 100%;
+}
+
+.headForm h1 {
+  font: normal bold 3rem/5rem "Roboto";
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px;
+}
+.form-temp {
+  margin-top: 2px;
+}
+.detailContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.details {
+  margin: 10px 20px;
+  font: normal bold 18px/1.2rem "roboto";
+}
+.details input {
+  padding: 15px;
+  margin: 10px 0;
+  background-color: rgb(247, 247, 247);
+  border: rgb(241, 237, 237) solid 2px;
+  border-radius: 4px;
+}
+.messageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: normal bold 18px/1.2rem "roboto";
+}
+
+.messageContainer textarea {
+  margin: 10px;
+  padding: 10px;
+  width: 35%;
+  background-color: rgb(247, 247, 247);
+  border: rgb(241, 237, 237) solid 2px;
+  border-radius: 4px;
+}
+.btn {
+  text-align: center;
+  padding: 10px;
+}
+
+.btn button {
+  background-color: white;
+  padding: 10px 15px;
+  font: normal bold 1rem/1.5rem "Noto Sans", sans-serif;
+}
+
+.btn button:hover {
+  transition: all 300ms ease-out;
+  color: white;
+  background-color: black;
+}
+
+/*contact us section end */
+
+footer h4 {
+  color: black;
+  padding: 10px;
+  font: normal bold 0.8rem/1rem "Noto Sans", sans-serif;
+}
