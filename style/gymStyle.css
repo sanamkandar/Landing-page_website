@@ -154,7 +154,7 @@
   width: 100%;
   padding: 20px 10px 10px 10px;
   text-align: center;
-  font: normal 25px/1.6rem "teko";
+  font: normal 25px/1.1rem "teko";
   word-spacing: 6px;
 }
 .program:hover .programName {

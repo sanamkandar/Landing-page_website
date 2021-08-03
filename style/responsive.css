@@ -29,11 +29,11 @@
     padding: 0;
   }
   .line {
-    top: 30%;
+    top: 450px;
     font-size: 2rem;
   }
   .qoutes {
-    top: 36%;
+    top: 500px;
     color: white;
     padding: 20px 20px;
     font-size: 18px;
@@ -171,6 +171,7 @@
   /*  STYLING PROGRAMS-CONTENT */
   .program {
     margin: 3px;
+    height: 500px;
   }
 }
 
